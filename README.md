@@ -18,3 +18,8 @@ python app.py decrypt --text "HIER_DE_BASE64"
 python app.py encrypt --infile input.txt --outfile input.txt.enc
 python app.py decrypt --infile input.txt.enc --outfile output.txt
 python app.py generate-key --out key.bin
+
+# ik heb met deze opdracht gebruik gemaakt van stackoverflow aangezien ik best veel bugs had. het is nu opgelost.
+
+# Ik heb gebruik gemaakt van de commandline interface en heb gebruik gemaakt van AES-256
+AES-256 is een moderne en veilige methode die openbaar bekend is, maar toch veilig blijft zolang de sleutel geheim is (zegt het Kerckhoffs’s Principe).

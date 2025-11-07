@@ -12,14 +12,14 @@ from cryptography.hazmat.primitives.kdf.scrypt import Scrypt
 VERSIE = 1
 SALT_LEN = 16
 NONCE_LEN = 12
-KEY_LEN = 32  # 256 bits
+KEY_LEN = 32
 
 @dataclass(frozen=True)
 class Envelop:
     versie: int
     salt: bytes
     nonce: bytes
-    ciphertext: bytes  # bevat GCM-tag
+    ciphertext: bytes
 
     def to_bytes(self) -> bytes:
         return bytes([self.versie]) + self.salt + self.nonce + self.ciphertext

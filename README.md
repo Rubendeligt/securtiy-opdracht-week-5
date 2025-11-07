@@ -9,6 +9,7 @@ Dit is een kleine Python applicatie waarmee je tekst en bestanden kunt versleute
 - tekst te ontsleutelen
 - bestanden te versleutelen of ontsleutelen
 - een keyfile te maken
+Zelfs als iemand de werking van de applicatie en de gebruikte methodes kent, heb je wel de sleutel nodig om het te laten werken. Dit voldoet aan Kerckhoffs’s Principe.
 
 Voorbeelden:
 
